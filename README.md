@@ -9,7 +9,7 @@ Desenvolvido no curso multi-stack da treinaweb
 ....
 
 git clone https://github.com/misaelrcDev/sistema-administrativo-e-diaristas-php.git
-....
+
 
 #### Instalar as dependências
 
