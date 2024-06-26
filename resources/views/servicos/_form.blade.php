@@ -39,19 +39,19 @@
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="valor-minimo">Valor Mínimo</label>
-                                <input value="{{ $servico->valor_minimo ?? '' }}" type="input" class="form-control" name="valor_minimo" id="valor_minimo" required placeholder="Valor Mínimo">
+                                <input value="{{ $servico->valor_minimo ?? '' }}" type="input" class="form-control" name="valor_minimo" id="valor_minimo"  placeholder="Valor Mínimo">
                             </div> 
                         </div>
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="valor-minimo">Quantidade Mínima de horas</label>
-                                <input value="{{ $servico->quantidade_horas ?? '' }}" type="input" class="form-control" name="quantidade_horas" id="quantidade_horas" required placeholder="Quantidade mínima de horas">
+                                <input value="{{ $servico->quantidade_horas ?? '' }}" type="input" class="form-control" name="quantidade_horas" id="quantidade_horas"  placeholder="Quantidade mínima de horas">
                             </div> 
                         </div>
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="valor-minimo">Porcentagem de Comissão</label>
-                                <input value="{{ $servico->porcentagem ?? '' }}" type="input" class="form-control" name="porcentagem" id="porcentagem" required placeholder="porcentagem de comissão no serviço">
+                                <input value="{{ $servico->porcentagem ?? '' }}" type="input" class="form-control" name="porcentagem" id="porcentagem"  placeholder="porcentagem de comissão no serviço">
                             </div> 
                         </div>
                     </div>
@@ -63,13 +63,13 @@
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="valor-minimo">Valor por Quarto</label>
-                                <input value="{{ $servico->valor_quarto ?? '' }}" type="input" class="form-control" name="valor_quarto" id="valor_quarto" required placeholder="Valor por quarto">
+                                <input value="{{ $servico->valor_quarto ?? '' }}" type="input" class="form-control" name="valor_quarto" id="valor_quarto"  placeholder="Valor por quarto">
                             </div> 
                         </div>
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="valor-minimo">Quantidade de horas por quarto</label>
-                                <input value="{{ $servico->horas_quarto ?? '' }}" type="input" class="form-control" name="horas_quarto" id="horas_quarto" required placeholder="Quantidade horas por quarto">
+                                <input value="{{ $servico->horas_quarto ?? '' }}" type="input" class="form-control" name="horas_quarto" id="horas_quarto"  placeholder="Quantidade horas por quarto">
                             </div> 
                         </div>
                     </div>
@@ -77,13 +77,13 @@
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="valor-minimo">Valor por sala</label>
-                                <input value="{{ $servico->valor_sala ?? '' }}" type="input" class="form-control" name="valor_sala" id="valor_sala" required placeholder="Valor por sala">
+                                <input value="{{ $servico->valor_sala ?? '' }}" type="input" class="form-control" name="valor_sala" id="valor_sala"  placeholder="Valor por sala">
                             </div> 
                         </div>
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="valor-minimo">Quantidade de horas por sala</label>
-                                <input value="{{ $servico->horas_sala ?? '' }}" type="input" class="form-control" name="horas_sala" id="horas_sala" required placeholder="Quantidade horas por sala">
+                                <input value="{{ $servico->horas_sala ?? '' }}" type="input" class="form-control" name="horas_sala" id="horas_sala"  placeholder="Quantidade horas por sala">
                             </div> 
                         </div>
                     </div>
@@ -91,13 +91,13 @@
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="valor-minimo">Valor por banheiro</label>
-                                <input value="{{ $servico->valor_banheiro ?? '' }}" type="input" class="form-control" name="valor_banheiro" id="valor_banheiro" required placeholder="Valor por banheiro">
+                                <input value="{{ $servico->valor_banheiro ?? '' }}" type="input" class="form-control" name="valor_banheiro" id="valor_banheiro"  placeholder="Valor por banheiro">
                             </div> 
                         </div>
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="valor-minimo">Quantidade de horas por banheiro</label>
-                                <input value="{{ $servico->horas_sala ?? '' }}" type="input" class="form-control" name="horas_sala" id="horas_sala" required placeholder="Quantidade horas por banheiro">
+                                <input value="{{ $servico->horas_sala ?? '' }}" type="input" class="form-control" name="horas_sala" id="horas_sala"  placeholder="Quantidade horas por banheiro">
                             </div> 
                         </div>
                     </div>
@@ -105,13 +105,13 @@
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="valor-minimo">Valor por cozinha</label>
-                                <input value="{{ $servico->valor_cozinha ?? '' }}" type="input" class="form-control" name="valor_cozinha" id="valor_cozinha" required placeholder="Valor por cozinha">
+                                <input value="{{ $servico->valor_cozinha ?? '' }}" type="input" class="form-control" name="valor_cozinha" id="valor_cozinha"  placeholder="Valor por cozinha">
                             </div> 
                         </div>
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="valor-minimo">Quantidade de horas por cozinha</label>
-                                <input value="{{ $servico->horas_cozinha ?? '' }}" type="input" class="form-control" name="horas_cozinha" id="horas_cozinha" required placeholder="Quantidade horas por cozinha">
+                                <input value="{{ $servico->horas_cozinha ?? '' }}" type="input" class="form-control" name="horas_cozinha" id="horas_cozinha"  placeholder="Quantidade horas por cozinha">
                             </div> 
                         </div>
                     </div>
@@ -119,13 +119,13 @@
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="valor-minimo">Valor por quintal</label>
-                                <input value="{{ $servico->valor_quintal ?? '' }}" type="input" class="form-control" name="valor_quintal" id="valor_quintal" required placeholder="Valor por quintal">
+                                <input value="{{ $servico->valor_quintal ?? '' }}" type="input" class="form-control" name="valor_quintal" id="valor_quintal"  placeholder="Valor por quintal">
                             </div> 
                         </div>
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="valor-minimo">Quantidade de horas por quintal</label>
-                                <input value="{{ $servico->horas_quintal ?? '' }}" type="input" class="form-control" name="horas_quintal" id="horas_quintal" required placeholder="Quantidade horas por quintal">
+                                <input value="{{ $servico->horas_quintal ?? '' }}" type="input" class="form-control" name="horas_quintal" id="horas_quintal"  placeholder="Quantidade horas por quintal">
                             </div> 
                         </div>
                     </div>
@@ -133,13 +133,13 @@
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="valor-minimo">Valor por outros tipos de cômodos</label>
-                                <input value="{{ $servico->valor_outros ?? '' }}" type="input" class="form-control" name="valor_outros" id="valor_outros" required placeholder="Valor por outros">
+                                <input value="{{ $servico->valor_outros ?? '' }}" type="input" class="form-control" name="valor_outros" id="valor_outros"  placeholder="Valor por outros">
                             </div> 
                         </div>
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="valor-minimo">Quantidade de horas por outros tipos de cômodos</label>
-                                <input value="{{ $servico->horas_outros ?? '' }}" type="input" class="form-control" name="horas_outros" id="horas_outros" required placeholder="Quantidade horas por outros">
+                                <input value="{{ $servico->horas_outros ?? '' }}" type="input" class="form-control" name="horas_outros" id="horas_outros"  placeholder="Quantidade horas por outros">
                             </div> 
                         </div>
                     </div>
