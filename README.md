@@ -9,21 +9,21 @@ Desenvolvido no curso multi-stack da treinaweb
 ....
 
 git clone https://github.com/misaelrcDev/sistema-administrativo-e-diaristas-php.git
-....
+
 
 #### Instalar as dependências
 
 ...
 
 composer install
-....
+
 
 Ou em em ambiente de desenvolvimento
 
 ...
 
 composer update
-....
+
 
 #### Criar arquivo de configurações de ambiente
 
@@ -35,11 +35,10 @@ configurar os detalhes da aplicação e conexão com o banco de dados.
 ...
 
 php artisan migrate
-....
+
 
 #### Iniciar o servidor de desenvolvimento
 
 ...
 
 php artisan serve
-....
